@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-SymbolicName: org.eclipse.om2m.sample.ipe
 Bundle-Name: Ipe
-Bundle-Version: 1.1.0.20190124-0906
+Bundle-Version: 1.1.0.20190124-1236
 Bundle-ClassPath: libs/bluecove-2.1.1.jar
 Require-Bundle: org.eclipse.om2m.commons;bundle-version="1.1.0"
 Bundle-ManifestVersion: 2

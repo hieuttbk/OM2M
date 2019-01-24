@@ -164,10 +164,14 @@
 		
 		
 		
-		<module>../DEVELOP_IPE</module>
+		
 
 		
-		<module>../../oneM2M/GIT/btIPE</module>
+		
+		
+		
+		<module>../btIPE</module>
+		<module>../org.eclipse.om2m.sample.ipe</module>
 	</modules>
 	<version>1.1.0-SNAPSHOT</version>
 	<groupId>org.eclipse.om2m</groupId>

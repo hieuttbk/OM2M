@@ -70,7 +70,6 @@
       <plugin id="org.eclipse.om2m.persistence.mongodb"/>
       <plugin id="org.eclipse.om2m.persistence.service"/>
       <plugin id="org.eclipse.om2m.sample.ipe"/>
-      <plugin id="org.eclipse.om2m.sample.ipebt"/>
       <plugin id="org.eclipse.om2m.testsuite.flexcontainer"/>
       <plugin id="org.eclipse.om2m.webapp.resourcesbrowser.json"/>
       <plugin id="org.eclipse.osgi"/>

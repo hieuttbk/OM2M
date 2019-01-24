@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.om2m.sample.ipe
+Bundle-Name: Ipe
+Bundle-Version: 1.1.0.20190124-0906
+Bundle-ClassPath: libs/bluecove-2.1.1.jar
+Require-Bundle: org.eclipse.om2m.commons;bundle-version="1.1.0"
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.eclipse.om2m.sample.ipe.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Import-Package: org.apache.commons.logging,org.eclipse.om2m.core.servi
+ ce,org.eclipse.om2m.interworking.service,org.osgi.framework;version="
+ 1.3.0",org.osgi.util.tracker;version="1.5.1"
+

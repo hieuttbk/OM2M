@@ -24,9 +24,9 @@ public class MyActuator {
 //	private static String cseId = "mn-cse";
 //	private static String cseName = "mn-name";
 	
-	private static int csePort = 8080;				// ? port nay cua MN
-	private static String cseId = "in-cse";
-	private static String cseName = "in-name";
+	private static int csePort = 8282;				// ? port nay cua MN
+	private static String cseId = "mn-cse";
+	private static String cseName = "mn-name";
  
 	private static String aeName = "myactuator";
 	private static String cntName = "data";

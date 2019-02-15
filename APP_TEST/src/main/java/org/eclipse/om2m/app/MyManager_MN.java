@@ -28,7 +28,7 @@ public class MyManager_MN {
 	private static String aeIp = "127.0.0.1";
 	private static int aePort = 1502;				// My manager port
 	private static String subName="managersub_MN_test";
-	private static String targetSensorContainer="mn-cse-2/mn-name-2/TEST_MN/data";
+	private static String targetSensorContainer="mn-cse/mn-name/mysensor/data";
 	private static String targetActuatorContainer="mn-cse/mn-name/myactuator/data";
  
 	private static String csePoa = cseProtocol+"://"+cseIp+":"+csePort;
@@ -66,7 +66,7 @@ public class MyManager_MN {
 		obj.put("nct", 2);
 		resource = new JSONObject();		
 		resource.put("m2m:sub", obj);
-		RestHttpClient.post(originator, csePoa2+"/~/"+targetSensorContainer, resource.toString(), 23);
+		RestHttpClient.post(originator, csePoa+"/~/"+targetSensorContainer, resource.toString(), 23);
 	}
  
 	static class MyHandler implements HttpHandler {

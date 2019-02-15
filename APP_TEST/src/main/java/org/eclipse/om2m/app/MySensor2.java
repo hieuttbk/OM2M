@@ -9,9 +9,11 @@ public class MySensor2 {
 	private static String originator="admin:admin"; // acc and password
 	private static String cseProtocol="http";
 	private static String cseIp = "127.0.0.1";
-	private static int csePort = 8080;				// ? port nay cua MN
-	private static String cseId = "in-cse";
-	private static String cseName = "in-name";
+// -----------------
+	// 1502 - test only open MN 
+	private static int csePort = 8282;				// ? port nay cua MN
+	private static String cseId = "mn-cse";
+	private static String cseName = "mn-name";
  
 	private static String aeName = "mysensor";
 	private static String cntName = "data";
@@ -51,8 +53,8 @@ public class MySensor2 {
 	}
  
 	public static int getSensorValue(){
-		//sensorValue = (int)(Math.random()*500);
-		sensorValue = (int)(100);
+		sensorValue = (int)(Math.random()*500);
+		//sensorValue = (int)(100);
 		System.out.println("Sensor value = "+sensorValue);
 		return sensorValue;
 	}
